@@ -1,2 +1,2 @@
-# 3musketiere
-Sentiment Analysis for Jira
+# sentiment analysis
+Sentiment Analysis for Jira by 3 Musketiere
