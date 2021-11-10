@@ -1,0 +1,16 @@
+modules:
+  jira:issuePanel:
+    - key: forge-sentiment-hello-world-panel
+      function: main
+      title: forge-sentiment
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/5df4dc83-4d75-44b7-a8b0-d3f883ba6f7f
+
+permissions:
+  scopes:
+    - 'read:jira-work'
+    - 'read:jira-user'
