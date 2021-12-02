@@ -18,6 +18,7 @@ var bodyData = `{
     }
   }
 }`;
+
 useEffect(async () => {
 
   const response = await api.asApp().requestJira(route`/rest/api/2/expression/eval`, {
